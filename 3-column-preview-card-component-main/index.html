@@ -5,32 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
   <title>Frontend Mentor | 3-column preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  
-  Sedans
-  Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
-  or on your next road trip.
+  <div class="content mb-10">
+    <div class="content-card content-card-one">
+      <div>
+        <img class="content-card-logo mb-30" src="./images/icon-sedans.svg" alt="Sedans logo">
+      <h2 class="content-card-title mb-30">SEDANS</h2>
+      <p class="content-card-text mb-75">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
+      or on your next road trip.</p>
+      </div>
+      <button class="content-card-btn btn content-card-one-btn">Learn More</button>
+    </div>
+    <div class="content-card content-card-two">
+      <div>
+        <img class="content-card-logo mb-30" src="./images/icon-suvs.svg" alt="SUV logo">
+      <h2 class="content-card-title mb-30">SUVS</h2>
+      <p class="content-card-text mb-75">Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
+      and off-road adventures.</p>
+      </div>
+      <button class="content-card-btn btn content-card-two-btn">Learn More</button>
+    </div>
+    <div class="content-card content-card-three">
+      <div> 
+        <img class="content-card-logo mb-30" src="./images/icon-luxury.svg" alt="Luxury logo">
+        <h2 class="content-card-title mb-30">LUXURY</h2>
+        <p class="content-card-text mb-75">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
+          rental and arrive in style.</p>
+      </div>
+      <button class="content-card-btn btn content-card-three-btn">Learn More</button>
+    </div>
+    
+  </div> 
 
-  SUVs
-  Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
-  and off-road adventures.
-
-  Luxury
-  Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
-  rental and arrive in style.
-  
-  <div class="attribution">
+  <div class="attribution mb-10">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/Relytt">Tyler Redfern</a>.
   </div>
 </body>
 </html>
